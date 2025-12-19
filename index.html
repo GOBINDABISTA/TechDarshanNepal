@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tech दर्शन provides AI-powered solutions, custom software development, cybersecurity, and data analytics for businesses across Nepal.">
+    <title>Tech दर्शन | AI-Powered Solutions for Businesses</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Particles.js for neural network animations -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="assets/js/email.js"></script>
+    <script src="assets/js/particles-config.js"></script>
+    <script src="assets/js/application.js"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="container">
+            <p>🎉 New AI Solutions for Education Sector - <a href="#clients">Learn More</a></p>
+            <button class="close-announcement"><i class="fas fa-times"></i></button>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Bar -->
+    <header>
+        <nav id="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="assets/images/logo.jpeg" alt="Digital Solution4All">
+                    </a>
+                </div>
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li class="has-dropdown">
+                        <a href="#home" class="nav-link">Home <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#home">Welcome</a></li>
+                            <li><a href="#home-features">Features</a></li>
+                            <li><a href="#home-approach">Our Approach</a></li>
+                            <li><a href="#home-stats">Statistics</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#about" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#about-story">Our Story</a></li>
+                            <li><a href="#about-values">Values & Mission</a></li>
+                            <li><a href="#about-technologies">Technologies</a></li>
+                            <li><a href="#about-experience">Experience</a></li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#services" class="nav-link">Services <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">AI & ML Solutions <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#ai-predictive">Predictive Analytics</a></li>
+                                    <li><a href="#ai-nlp">Natural Language Processing</a></li>
+                                    <li><a href="#ai-vision">Computer Vision</a></li>
+                                    <li><a href="#ai-recommendation">Recommendation Systems</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Web & App Development <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#web-responsive">Responsive Web Design</a></li>
+                                    <li><a href="#web-mobile">Mobile Applications</a></li>
+                                    <li><a href="#web-pwa">Progressive Web Apps</a></li>
+                                    <li><a href="#web-ecommerce">E-commerce Solutions</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Cybersecurity <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#security-pentest">Penetration Testing</a></li>
+                                    <li><a href="#security-audit">Security Audits</a></li>
+                                    <li><a href="#security-threat">Threat Detection</a></li>
+                                    <li><a href="#security-data">Data Protection</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Data Analytics <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#data-bi">Business Intelligence</a></li>
+                                    <li><a href="#data-visualization">Data Visualization</a></li>
+                                    <li><a href="#data-automation">Workflow Automation</a></li>
+                                    <li><a href="#data-dashboards">Custom Dashboards</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#company" class="nav-link">Company <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Our Team <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#team-leadership">Leadership</a></li>
+                                    <li><a href="#team-developers">Developers</a></li>
+                                    <li><a href="#team-designers">Designers</a></li>
+                                    <li><a href="#team-ai">AI Specialists</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">CEO Social Media <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="https://www.linkedin.com/in/gobinda-bista-8ba3b4267/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                                    <li><a href="https://github.com/GOBINDABISTA" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                                    <li><a href="https://www.facebook.com/ElonGobinda.Bista.526Gb.GB.Balen" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Careers <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#careers-positions">Open Positions</a></li>
+                                    <li><a href="#careers-apply">Apply Now</a></li>
+                                    <li><a href="#careers-culture">Work Culture</a></li>
+                                    <li><a href="#careers-benefits">Benefits</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Success Stories <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#success-cases">Case Studies</a></li>
+                                    <li><a href="#success-testimonials">Testimonials</a></li>
+                                    <li><a href="#success-results">Results</a></li>
+                                    <li><a href="#success-videos">Videos</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Blog <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#blog-all">All Posts</a></li>
+                                    <li><a href="#blog-ai">AI Insights</a></li>
+                                    <li><a href="#blog-tech">Tech Trends</a></li>
+                                    <li><a href="#blog-industry">Industry News</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#clients" class="nav-link">Clients <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Educational Institutions <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#edu-universities">Universities</a></li>
+                                    <li><a href="#edu-schools">Schools</a></li>
+                                    <li><a href="#edu-training">Training Centers</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Healthcare <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#health-hospitals">Hospitals</a></li>
+                                    <li><a href="#health-clinics">Clinics</a></li>
+                                    <li><a href="#health-labs">Medical Labs</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">E-Commerce <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#ecom-retail">Retail</a></li>
+                                    <li><a href="#ecom-marketplace">Marketplaces</a></li>
+                                    <li><a href="#ecom-b2b">B2B Platforms</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Finance <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#finance-banks">Banks</a></li>
+                                    <li><a href="#finance-insurance">Insurance</a></li>
+                                    <li><a href="#finance-fintech">FinTech</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="javascript:void(0)" class="submenu-link">Government & NGOs <i class="fas fa-chevron-right"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="#gov-departments">Government Departments</a></li>
+                                    <li><a href="#gov-ngos">NGOs</a></li>
+                                    <li><a href="#gov-projects">Development Projects</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="has-dropdown">
+                        <a href="#contact" class="nav-link">Contact <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#contact-quote">Get Quote</a></li>
+                            <li><a href="#contact-support">Support</a></li>
+                            <li><a href="#contact-partnerships">Partnerships</a></li>
+                            <li><a href="#contact-locations">Our Locations</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact" class="cta-button">Get Quote</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="menu-backdrop"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="neural-network-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1><span class="company-name">Tech दर्शन</span> <br>Innovative Digital Products <br>for <span class="typing-text" data-text='["Future Growth", "AI Integration", "Innovation", "Smart Business"]'></span></h1>
+                    <p>We specialize in developing innovative digital products including websites, web applications, mobile apps, and comprehensive digital solutions powered by AI and modern technologies for businesses across Nepal and beyond.</p>
+                    <div class="hero-buttons">
+                        <a href="#services" class="primary-btn">Our Services</a>
+                        <a href="#contact" class="cta-button">Get Started</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">AI Solutions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/team/home.png" alt="Digital Solutions">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="neural-network-bg about-network"></div>
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://img.freepik.com/free-vector/futuristic-ai-technology-template-vector-disruptive-technology-blog-banner_53876-112230.jpg" alt="Technology Solutions">
+                    <div class="about-experience">
+                        <span class="experience-number">Newly</span>
+                        <span class="experience-text">Established</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>New Digital Solutions Provider in Nepal</h3>
+                    <p>Tech दर्शन was founded in 2025 with a vision to transform how businesses operate through innovative technology solutions. We specialize in artificial intelligence, machine learning, and data analytics to help organizations across Nepal leverage the power of modern technology.</p>
+                    
+                    <p>Our passionate team is dedicated to helping businesses, educational institutions, healthcare providers, and government agencies implement cutting-edge solutions that drive growth and efficiency.</p>
+                    
+                    <div class="about-cta">
+                        <a href="#services" class="primary-btn">Our Expertise</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-values">
+                <div class="value-item">
+                    <i class="fas fa-medal"></i>
+                    <h3>Excellence</h3>
+                    <p>We strive for excellence in every AI and technology solution we deliver.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Trust</h3>
+                    <p>Building lasting partnerships through ethical AI implementation and reliability.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>Innovation</h3>
+                    <p>Creating innovative AI-powered solutions for complex business challenges.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-globe"></i>
+                    <h3>Local Impact</h3>
+                    <p>Committed to advancing Nepal's technology landscape and digital economy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="neural-network-bg services-network"></div>
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Cutting-edge AI and technology solutions tailored to your business needs</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI-Enhanced Products</h3>
+                    <p>Integrating AI capabilities into your digital products.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Predictive Analytics</li>
+                        <li><i class="fas fa-check"></i> Natural Language Processing</li>
+                        <li><i class="fas fa-check"></i> Computer Vision</li>
+                        <li><i class="fas fa-check"></i> Recommendation Systems</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                    <div class="service-details">
+                        <p>We integrate cutting-edge AI technologies into your digital products to make them smarter and more competitive. From predictive analytics in web apps to computer vision in mobile apps, we ensure your products stand out with intelligent features that enhance user experience and business value.</p>
+                        <a href="#contact" class="service-cta">Request a Consultation</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Product Development</h3>
+                    <p>Websites, Web Apps, Mobile Apps, and Digital Solutions</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Custom Website Development</li>
+                        <li><i class="fas fa-check"></i> Web Application Development</li>
+                        <li><i class="fas fa-check"></i> Mobile App Development</li>
+                        <li><i class="fas fa-check"></i> Digital Product Solutions</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                    <div class="service-details">
+                        <p>We specialize in building complete digital products from concept to deployment. Our product development services include responsive websites, scalable web applications, native and cross-platform mobile apps, and comprehensive digital solutions tailored to your business needs. We focus on user experience, performance, and scalability to ensure your products succeed in the market.</p>
+                        <a href="#contact" class="service-cta">Request a Consultation</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Product Security & Compliance</h3>
+                    <p>Building secure and compliant digital products from the ground up.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Secure Development</li>
+                        <li><i class="fas fa-check"></i> Compliance Standards</li>
+                        <li><i class="fas fa-check"></i> Threat Detection</li>
+                        <li><i class="fas fa-check"></i> Data Protection</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                    <div class="service-details">
+                        <p>Security is built into every product we develop. We implement industry-standard security practices, conduct thorough testing, and ensure compliance with data protection regulations. Our secure development lifecycle protects your users and builds trust in your digital products.</p>
+                        <a href="#contact" class="service-cta">Request a Consultation</a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Product Analytics & Optimization</h3>
+                    <p>Data-driven insights to optimize your digital products.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> User Analytics</li>
+                        <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                        <li><i class="fas fa-check"></i> A/B Testing</li>
+                        <li><i class="fas fa-check"></i> Optimization Strategies</li>
+                    </ul>
+                    <button class="learn-more-btn">Learn More</button>
+                    <div class="service-details">
+                        <p>We integrate analytics into your digital products to track user behavior, measure performance, and drive continuous improvement. Our analytics solutions help you understand how users interact with your products, identify bottlenecks, and implement data-driven optimizations to enhance user experience and business outcomes.</p>
+                        <a href="#contact" class="service-cta">Request a Consultation</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="services-cta">
+                <h3>Need a Customized Solution?</h3>
+                <p>We can develop tailored technology solutions specific to your business requirements.</p>
+                <a href="#contact" class="cta-button">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients">
+        <div class="neural-network-bg clients-network"></div>
+        <div class="container">
+            <h2 class="section-title">Who We Serve</h2>
+            <div class="clients-grid">
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <h3>Educational Institutions</h3>
+                    <p>AI-powered learning platforms, student performance analytics, and smart campus solutions.</p>
+                </div>
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>Hospitals & Clinics</h3>
+                    <p>Patient management systems, diagnostic assistance, and healthcare analytics.</p>
+                </div>
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce Startups</h3>
+                    <p>Smart inventory management, recommendation engines, and customer analytics.</p>
+                </div>
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Financial Institutions</h3>
+                    <p>Fraud detection systems, risk assessment tools, and customer service automation.</p>
+                </div>
+                <div class="client-card">
+                    <div class="client-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Government & NGOs</h3>
+                    <p>Data-driven decision support systems and public service improvements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Stories Section -->
+    <section id="success" class="success">
+        <div class="neural-network-bg success-network"></div>
+        <div class="container">
+            <h2 class="section-title">Success Stories</h2>
+            
+            <div class="success-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="education">Education</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                <button class="filter-btn" data-filter="finance">Finance</button>
+            </div>
+            
+            <div class="success-grid">
+                <!-- Case Study 1 -->
+                <div class="success-card" data-category="education">
+                    <div class="success-media">
+                        <img src="https://img.freepik.com/free-photo/ai-nuclear-energy-background-future-innovation-disruptive-technology_53876-129783.jpg" alt="E-Learning Platform Development">
+                        <div class="video-play">
+                            <i class="fas fa-play-circle" data-video="https://www.youtube.com/embed/example1"></i>
+                        </div>
+                    </div>
+                    <div class="success-content">
+                        <span class="success-tag">Education</span>
+                        <h3>E-Learning Platform for Kathmandu University</h3>
+                        <p>We developed a comprehensive e-learning platform with interactive courses, progress tracking, and mobile accessibility, enabling modern education delivery and improving student engagement by 40%.</p>
+                        <div class="success-metadata">
+                            <span><i class="fas fa-calendar"></i> March 2025</span>
+                            <span><i class="fas fa-chart-line"></i> 40% Engagement Increase</span>
+                        </div>
+                        <button class="view-case-btn">View Full Case Study</button>
+                    </div>
+                </div>
+                
+                <!-- Case Study 2 -->
+                <div class="success-card" data-category="healthcare">
+                    <div class="success-media">
+                        <img src="https://img.freepik.com/free-photo/robot-machine-learning-artificial-intelligence-neural-networks-concept_53876-133297.jpg" alt="Medical Diagnostic AI">
+                        <div class="video-play">
+                            <i class="fas fa-play-circle" data-video="https://www.youtube.com/embed/example2"></i>
+                        </div>
+                    </div>
+                    <div class="success-content">
+                        <span class="success-tag">Healthcare</span>
+                        <h3>Telemedicine Mobile App for Rural Healthcare</h3>
+                        <p>We developed a comprehensive telemedicine mobile app connecting rural patients with healthcare providers, featuring appointment scheduling, video consultations, and secure health record management, improving access to healthcare by 50%.</p>
+                        <div class="success-metadata">
+                            <span><i class="fas fa-calendar"></i> November 2025</span>
+                            <span><i class="fas fa-chart-line"></i> 50% Access Improvement</span>
+                        </div>
+                        <button class="view-case-btn">View Full Case Study</button>
+                    </div>
+                </div>
+                
+                <!-- Case Study 3 -->
+                <div class="success-card" data-category="ecommerce">
+                    <div class="success-media">
+                        <img src="https://img.freepik.com/free-photo/smart-retail-shop-automation-system-concept_53876-124457.jpg" alt="E-Commerce Platform">
+                        <div class="video-play">
+                            <i class="fas fa-play-circle" data-video="https://www.youtube.com/embed/example3"></i>
+                        </div>
+                    </div>
+                    <div class="success-content">
+                        <span class="success-tag">E-Commerce</span>
+                        <h3>Smart Inventory Management System</h3>
+                        <p>We developed a modern e-commerce web platform with smart search, personalized recommendations, and automated inventory management, increasing sales conversion rates by 35% and enhancing user experience.</p>
+                        <div class="success-metadata">
+                            <span><i class="fas fa-calendar"></i> July 2025</span>
+                            <span><i class="fas fa-chart-line"></i> 35% Conversion Increase</span>
+                        </div>
+                        <button class="view-case-btn">View Full Case Study</button>
+                    </div>
+                </div>
+                
+                <!-- Case Study 4 -->
+                <div class="success-card" data-category="finance">
+                    <div class="success-media">
+                        <img src="https://img.freepik.com/free-photo/cyber-security-protection-firewall-interface-concept_53876-121073.jpg" alt="Fraud Detection System">
+                        <div class="video-play">
+                            <i class="fas fa-play-circle" data-video="https://www.youtube.com/embed/example4"></i>
+                        </div>
+                    </div>
+                    <div class="success-content">
+                        <span class="success-tag">Finance</span>
+                        <h3>Real-time Fraud Detection System</h3>
+                        <p>We developed a secure banking mobile app with biometric authentication, transaction tracking, and integrated security features, improving customer satisfaction scores by 40% and ensuring robust financial security.</p>
+                        <div class="success-metadata">
+                            <span><i class="fas fa-calendar"></i> January 2025</span>
+                            <span><i class="fas fa-chart-line"></i> 40% Satisfaction Increase</span>
+                        </div>
+                        <button class="view-case-btn">View Full Case Study</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonials Slider -->
+            <div class="testimonials-container">
+                <h3>Client Testimonials</h3>
+                <div class="testimonials-slider">
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Working with Digital Solution4All completely transformed our approach to student data. Their AI implementation was seamless and the results exceeded our expectations."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/team/gobindabista.png" alt="Gobinda Bista">
+                            <div>
+                                <h4>Gobinda Bista</h4>
+                                <p>Founder, Tech दर्शन</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"The diagnostic assistance AI has been a game-changer for our radiology department. We're able to work more efficiently and provide better care to our patients."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/team/gobindabista.png" alt="Gobinda Bista">
+                            <div>
+                                <h4>Gobinda Bista</h4>
+                                <p>Founder, Tech दर्शन</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"Our e-commerce business has grown 300% since implementing Digital Solution4All's inventory management system. We save money and provide better service to our customers."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/team/gobindabista.png" alt="Gobinda Bista">
+                            <div>
+                                <h4>Gobinda Bista</h4>
+                                <p>Founder, Tech दर्शन</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <p>"The fraud detection system has paid for itself many times over. Our customers feel safer and we've dramatically reduced our fraud-related losses."</p>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="assets/images/team/gobindabista.png" alt="Gobinda Bista">
+                            <div>
+                                <h4>Gobinda Bista</h4>
+                                <p>Founder, Tech दर्शन</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            
+            <!-- Video Modal -->
+            <div id="video-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="video-container">
+                        <iframe id="youtube-frame" src="" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Careers Section -->
+    <section id="careers" class="careers">
+        <div class="neural-network-bg careers-network"></div>
+        <div class="container">
+            <h2 class="section-title">Join Our Team</h2>
+            <div class="careers-container">
+                <div class="careers-info">
+                    <h3>Grow With Us</h3>
+                    <p>Tech दर्शन is always looking for talented professionals passionate about AI and technology. We offer a collaborative work environment, challenging projects, and competitive benefits.</p>
+                    
+                    <div class="open-positions">
+                        <h4>Current Openings</h4>
+                        <div class="position-card">
+                            <div class="position-header">
+                                <h5>AI/ML Engineer</h5>
+                                <span class="position-tag">Full Time</span>
+                            </div>
+                            <p>Design and implement machine learning models and AI solutions for clients across various industries.</p>
+                            <button class="apply-btn" data-position="AI/ML Engineer">Apply Now</button>
+                        </div>
+                        <div class="position-card">
+                            <div class="position-header">
+                                <h5>Full Stack Developer</h5>
+                                <span class="position-tag">Full Time</span>
+                            </div>
+                            <p>Develop responsive web applications and backend systems that integrate with our AI solutions.</p>
+                            <button class="apply-btn" data-position="Full Stack Developer">Apply Now</button>
+                        </div>
+                        <div class="position-card">
+                            <div class="position-header">
+                                <h5>Cybersecurity Specialist</h5>
+                                <span class="position-tag">Contract</span>
+                            </div>
+                            <p>Implement security measures and conduct penetration testing for client systems.</p>
+                            <button class="apply-btn" data-position="Cybersecurity Specialist">Apply Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="work-benefits">
+                        <h4>Why Work With Us</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Competitive salary and benefits</li>
+                            <li><i class="fas fa-check-circle"></i> Flexible work arrangements</li>
+                            <li><i class="fas fa-check-circle"></i> Professional development opportunities</li>
+                            <li><i class="fas fa-check-circle"></i> Collaborative team environment</li>
+                            <li><i class="fas fa-check-circle"></i> Work on cutting-edge technologies</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="career-form-container">
+                    <h3>Apply Now</h3>
+                    <form id="careerForm" class="career-form">
+                        <div class="form-group">
+                            <label for="career-name">Full Name</label>
+                            <input type="text" id="career-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-email">Email</label>
+                            <input type="email" id="career-email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-phone">Phone</label>
+                            <input type="tel" id="career-phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-position">Position</label>
+                            <select id="career-position" name="position" required>
+                                <option value="">Select a position</option>
+                                <option value="AI/ML Engineer">AI/ML Engineer</option>
+                                <option value="Full Stack Developer">Full Stack Developer</option>
+                                <option value="Cybersecurity Specialist">Cybersecurity Specialist</option>
+                                <option value="Other">Other/Not Listed</option>
+                            </select>
+                        </div>
+                        <div class="form-group" id="other-position-group" style="display: none;">
+                            <label for="other-position">Specify Position</label>
+                            <input type="text" id="other-position" name="other-position">
+                        </div>
+                        <div class="form-group">
+                            <label for="career-experience">Years of Experience</label>
+                            <select id="career-experience" name="experience" required>
+                                <option value="0-1">0-1 years</option>
+                                <option value="1-3">1-3 years</option>
+                                <option value="3-5">3-5 years</option>
+                                <option value="5+">5+ years</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-message">Tell us about yourself and your requirements</label>
+                            <textarea id="career-message" name="message" rows="5" required placeholder="Your skills, experience, and what you're looking for..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="career-resume">Upload Resume (PDF/DOC)</label>
+                            <input type="file" id="career-resume" name="resume" accept=".pdf,.doc,.docx">
+                        </div>
+                        <div class="form-group">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="career-client" name="client-interest">
+                                <label for="career-client">I am also interested in becoming a client</label>
+                            </div>
+                        </div>
+                        <div class="form-group client-fields" style="display: none;">
+                            <label for="client-requirements">Business Requirements</label>
+                            <textarea id="client-requirements" name="client-requirements" rows="3" placeholder="Describe your business needs and requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Submit Application</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="neural-network-bg blog-network"></div>
+        <div class="container">
+            <h2 class="section-title">Latest Insights</h2>
+            
+            <div class="blog-categories">
+                <button class="category-btn active" data-category="all">All Posts</button>
+                <button class="category-btn" data-category="ai-insights">AI Insights</button>
+                <button class="category-btn" data-category="tech-trends">Tech Trends</button>
+                <button class="category-btn" data-category="industry">Industry News</button>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <div class="blog-card" data-category="ai-insights">
+                    <div class="blog-image">
+                        <img src="https://img.freepik.com/free-photo/neural-network-concept_23-2150209291.jpg" alt="The Future of AI in Nepal">
+                        <span class="blog-category">Web Development</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> March 15, 2025</span>
+                            <span><i class="fas fa-user"></i> Gobinda Bista</span>
+                        </div>
+                        <h3>Building Scalable Web Applications: Best Practices</h3>
+                        <p>Learn about modern web development techniques, frameworks, and architecture patterns for building robust and scalable web applications that grow with your business.</p>
+                        <a href="#" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 2 -->
+                <div class="blog-card" data-category="tech-trends">
+                    <div class="blog-image">
+                        <img src="https://img.freepik.com/free-photo/robot-conducting-chemical-research-ai-generated-image_268835-6559.jpg" alt="Machine Learning for SMEs">
+                        <span class="blog-category">Tech Trends</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> February 28, 2025</span>
+                            <span><i class="fas fa-user"></i> Gobinda Bista</span>
+                        </div>
+                        <h3>Mobile App Development Trends in 2025</h3>
+                        <p>Explore the latest trends in mobile app development, from cross-platform frameworks to AI integration, user experience design, and emerging technologies shaping the future of mobile applications.</p>
+                        <a href="#" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 3 -->
+                <div class="blog-card" data-category="industry">
+                    <div class="blog-image">
+                        <img src="https://img.freepik.com/free-photo/healthcare-futuristic-interface-with-medical-technology-concept_53876-124984.jpg" alt="Healthcare AI Innovations">
+                        <span class="blog-category">Industry News</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> January 10, 2025</span>
+                            <span><i class="fas fa-user"></i> Gobinda Bista</span>
+                        </div>
+                        <h3>Creating User-Centric Digital Products</h3>
+                        <p>How to design and develop digital products that prioritize user experience, accessibility, and business value through research-driven design and iterative development processes.</p>
+                        <a href="#" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 4 with Video -->
+                <div class="blog-card featured" data-category="tech-trends">
+                    <div class="blog-image">
+                        <img src="https://img.freepik.com/free-photo/cybersecurity-concept-with-shield-icon-digital-data-protection_53876-126673.jpg" alt="AI Development Workshop">
+                        <span class="blog-category">Tech Trends</span>
+                        <div class="video-indicator">
+                            <i class="fas fa-play-circle blog-video-btn" data-video="https://www.youtube.com/embed/example5"></i>
+                        </div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> December 5, 2025</span>
+                            <span><i class="fas fa-user"></i> Gobinda Bista</span>
+                        </div>
+                        <h3>Product Launch Strategies for Startups</h3>
+                        <p>Essential strategies for launching digital products successfully, from MVP development and user testing to market validation and scaling your product in competitive markets.</p>
+                        <a href="#" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 5 -->
+                <div class="blog-card" data-category="ai-insights">
+                    <div class="blog-image">
+                        <img src="https://img.freepik.com/free-photo/machine-learning-artificial-intelligence-integration-concept_53876-126833.jpg" alt="Natural Language Processing">
+                        <span class="blog-category">Web Development</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> November 18, 2025</span>
+                            <span><i class="fas fa-user"></i> Gobinda Bista</span>
+                        </div>
+                        <h3>Integrating Analytics in Web Applications</h3>
+                        <p>How to implement user analytics, performance monitoring, and data-driven optimization in your web products to improve user experience and business outcomes.</p>
+                        <a href="#" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 6 -->
+                <div class="blog-card" data-category="industry">
+                    <div class="blog-image">
+                        <img src="https://img.freepik.com/free-photo/classroom-with-vr-technology-futuristic-education_23-2150860848.jpg" alt="Education Technology">
+                        <span class="blog-category">Industry News</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="fas fa-calendar"></i> October 7, 2025</span>
+                            <span><i class="fas fa-user"></i> Gobinda Bista</span>
+                        </div>
+                        <h3>Securing Your Digital Products</h3>
+                        <p>Best practices for building secure web and mobile applications, including authentication, data protection, encryption, and compliance with industry standards.</p>
+                        <a href="#" class="read-more-btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="blog-pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#"><i class="fas fa-angle-right"></i></a>
+            </div>
+            
+            <div class="newsletter-signup">
+                <h3>Stay Updated with Our Latest Insights</h3>
+                <p>Subscribe to our newsletter to receive the latest blogs, case studies, and industry news.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="subscribe-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="team">
+        <div class="neural-network-bg team-network"></div>
+        <div class="container">
+            <h2 class="section-title">Meet Our  Team</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="assets/images/team/gobindabista.png" alt="Gobinda Bista">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gobinda-bista-8ba3b4267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/GOBINDABISTA" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/ElonGobinda.Bista.526Gb.GB.Balen" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <h3>Gobinda Bista</h3>
+                    <p>Co-Founder </p>
+                    
+                </div>
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="assets/images/team/suresh.jpg" alt="Suresh Shrestha">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gobinda-bista-8ba3b4267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/GOBINDABISTA" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/ElonGobinda.Bista.526Gb.GB.Balen" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <h3>Suresh Shrestha</h3>
+                    <p> CO-Founder</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="assets/images/team/subash.jpg" alt="Subash Bhandari">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gobinda-bista-8ba3b4267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/GOBINDABISTA" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/ElonGobinda.Bista.526Gb.GB.Balen" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <h3>Subash Bhandari</h3>
+                    <p>Co-Founder </p>
+                </div>
+                <div class="team-card">
+                    <div class="team-img">
+                        <img src="assets/images/team/hari.jpg" alt="Hari Krishna Khuju">
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/gobinda-bista-8ba3b4267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/GOBINDABISTA" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/ElonGobinda.Bista.526Gb.GB.Balen" target="_blank"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                    <h3>Hari Krishna Khuju</h3>
+                    <p>Co-Founder</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="neural-network-bg contact-network"></div>
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm" class="modern-form">
+                        <div class="form-row">
+                        <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <div class="input-group">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <div class="input-group">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                        <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <div class="input-group">
+                                    <i class="fas fa-phone"></i>
+                                    <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <div class="input-group">
+                                    <i class="fas fa-tag"></i>
+                                    <input type="text" id="subject" name="subject" required placeholder="Enter message subject">
+                        </div>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="message">Your Message</label>
+                            <div class="input-group">
+                                <i class="fas fa-comment"></i>
+                                <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project or requirements"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <div class="checkbox-group">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">I agree to the <a href="#">privacy policy</a> and consent to being contacted.</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                        <p>ai@digitalsolution4all.com.np</p>
+                            </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                        <p>+977-9842378928</p>
+                            </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                        <p>Kathmandu, Nepal</p>
+                            </div>
+                        </div>
+                        <div class="ceo-info">
+                            <h4>Meet Our CEO</h4>
+                            <div class="ceo-profile">
+                                <img src="assets/images/team/gobindabista.png" alt="Gobinda Bista">
+                                <div class="ceo-details">
+                                    <h5>Gobinda Bista</h5>
+                                    <p>CEO </p>
+                                    <div class="ceo-social">
+                                        <a href="https://www.linkedin.com/in/gobinda-bista-8ba3b4267/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                        <a href="https://github.com/GOBINDABISTA" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                                        <a href="https://www.facebook.com/ElonGobinda.Bista.526Gb.GB.Balen" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="social-media">
+                            <h4>Follow Us</h4>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/digitalsolution4allnepal" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/company/digitalsolution4all" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/digitalsol4all" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/digitalsolution4all" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.youtube.com/channel/digitalsolution4all" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#home">Tech दर्शन</a>
+                    <p>&copy; 2025 Tech दर्शन. All Rights Reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-link-group">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#company">Company</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">AI & ML Solutions</a></li>
+                            <li><a href="#services">Web Development</a></li>
+                            <li><a href="#services">Mobile Apps</a></li>
+                            <li><a href="#services">Cybersecurity</a></li>
+                            <li><a href="#services">Data Analytics</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-link-group">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#team">Our Team</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#success">Success Stories</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="back-to-top" title="Back to top"><i class="fas fa-arrow-up"></i></button>
+    </footer>
+
+    <!-- Back to top button -->
+    <button id="back-to-top"><i class="fas fa-arrow-up"></i></button>
+    
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent" class="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to improve your experience. By continuing to browse, you agree to our <a href="#">cookie policy</a>.</p>
+            <div class="cookie-buttons">
+                <button id="cookie-accept" class="cookie-btn accept">Accept</button>
+                <button id="cookie-decline" class="cookie-btn decline">Decline</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Initialize all neural network backgrounds
+        document.addEventListener('DOMContentLoaded', function() {
+            // Configuration for neural network particles with enhanced 3D effect
+            const particlesConfig = {
+                "particles": {
+                    "number": {
+                        "value": 120,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.7,
+                        "random": true,
+                        "anim": {
+                            "enable": true,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 4,
+                        "random": true,
+                        "anim": {
+                            "enable": true,
+                            "speed": 2,
+                            "size_min": 0.3,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.6,
+                        "width": 1.5,
+                        "shadow": {
+                            "enable": true,
+                            "color": "rgba(0,0,0,0.5)",
+                            "blur": 5
+                        }
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 2.5,
+                        "direction": "none",
+                        "random": true,
+                        "straight": false,
+                        "out_mode": "bounce",
+                        "bounce": true,
+                        "attract": {
+                            "enable": true,
+                            "rotateX": 1200,
+                            "rotateY": 1500
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "grab"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 180,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 200,
+                            "size": 8,
+                            "duration": 2,
+                            "opacity": 0.8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 100,
+                            "duration": 0.4
+                        },
+                        "push": {
+                            "particles_nb": 6
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true
+            };
+
+            // Apply different colors and settings for each section with enhanced 3D effect
+            const networkBgs = document.querySelectorAll('.neural-network-bg');
+            const colors = [
+                '#4a90e2', // hero
+                '#6772e5', // about
+                '#54c7ec', // services
+                '#6c5ce7', // clients
+                '#e74c3c', // success
+                '#2ecc71', // careers
+                '#f39c12', // blog
+                '#9b59b6', // team
+                '#1abc9c'  // contact
+            ];
+
+            // Apply 3D styling to all neural network backgrounds
+            networkBgs.forEach((bg) => {
+                bg.style.position = 'absolute';
+                bg.style.width = '100%';
+                bg.style.height = '100%';
+                bg.style.top = '0';
+                bg.style.left = '0';
+                bg.style.zIndex = '0';
+                bg.style.perspective = '1000px';
+                bg.style.transformStyle = 'preserve-3d';
+                bg.style.overflow = 'hidden';
+            });
+
+            // Get the parent sections to ensure proper positioning
+            networkBgs.forEach((bg) => {
+                const parentSection = bg.parentElement;
+                if (parentSection) {
+                    parentSection.style.position = 'relative';
+                    // Move the container to be above the neural network
+                    const container = parentSection.querySelector('.container');
+                    if (container) {
+                        container.style.position = 'relative';
+                        container.style.zIndex = '1';
+                    }
+                }
+            });
+
+            networkBgs.forEach((bg, index) => {
+                // Create unique ID for each canvas
+                const canvasId = `neural-network-${index}`;
+                bg.id = canvasId;
+                
+                // Clone the config and modify for this specific instance
+                let sectionConfig = JSON.parse(JSON.stringify(particlesConfig));
+                
+                // Set specific color for this section
+                const baseColor = colors[index % colors.length];
+                sectionConfig.particles.color.value = baseColor;
+                sectionConfig.particles.line_linked.color = baseColor;
+                
+                // Add depth variation based on section
+                sectionConfig.particles.move.speed = 2 + (index % 3);
+                sectionConfig.particles.number.value = 100 + (index % 5) * 20;
+                
+                // Vary the particle size for depth perception
+                sectionConfig.particles.size.value = 3 + (index % 4);
+                
+                // Enhance 3D effect with stronger attract forces
+                sectionConfig.particles.move.attract.rotateX = 800 + (index * 300);
+                sectionConfig.particles.move.attract.rotateY = 1000 + (index * 300);
+                
+                // Initialize particles.js for this canvas
+                particlesJS(canvasId, sectionConfig);
+                
+                // Add a subtle gradient background based on the section color
+                bg.style.background = `radial-gradient(ellipse at center, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 100%)`;
+                
+                // Add glow effect to particles
+                const glowLayer = document.createElement('div');
+                glowLayer.classList.add('glow-layer');
+                glowLayer.style.position = 'absolute';
+                glowLayer.style.top = '0';
+                glowLayer.style.left = '0';
+                glowLayer.style.width = '100%';
+                glowLayer.style.height = '100%';
+                glowLayer.style.boxShadow = `inset 0 0 100px ${baseColor}33`;
+                glowLayer.style.pointerEvents = 'none';
+                glowLayer.style.zIndex = '1';
+                bg.appendChild(glowLayer);
+            });
+
+            // Add 3D parallax effect on scroll and mouse movement
+            window.addEventListener('scroll', function() {
+                const scrollPosition = window.scrollY;
+                
+                networkBgs.forEach((bg, index) => {
+                    const parentRect = bg.parentElement.getBoundingClientRect();
+                    
+                    // Only apply effects when section is in viewport
+                    if (parentRect.top < window.innerHeight && parentRect.bottom > 0) {
+                        // Calculate relative position within viewport
+                        const relativePos = (parentRect.top / window.innerHeight);
+                        
+                        // Apply 3D transform
+                        bg.style.transform = `translateZ(${relativePos * -30}px) rotateX(${relativePos * 5}deg)`;
+                        
+                        // Adjust depth of field based on scroll position
+                        const canvasElement = bg.querySelector('canvas');
+                        if (canvasElement) {
+                            canvasElement.style.filter = `blur(${Math.abs(relativePos) * 2}px)`;
+                        }
+                    }
+                });
+            });
+            
+            // Add mouse movement parallax for enhanced 3D effect
+            document.addEventListener('mousemove', function(event) {
+                const mouseX = event.clientX / window.innerWidth - 0.5;
+                const mouseY = event.clientY / window.innerHeight - 0.5;
+                
+                networkBgs.forEach((bg) => {
+                    const parentRect = bg.parentElement.getBoundingClientRect();
+                    
+                    // Only apply effects when section is in viewport
+                    if (parentRect.top < window.innerHeight && parentRect.bottom > 0) {
+                        bg.style.transform = `perspective(1000px) rotateY(${mouseX * 10}deg) rotateX(${mouseY * -10}deg) translateZ(-20px)`;
+                    }
+                });
+            });
+        });
+    </script>
+    
+    <style>
+        /* Modern Contact Form Styles */
+        .contact {
+            padding: 80px 0;
+            background: rgba(0, 0, 0, 0.8);
+            position: relative;
+        }
+
+        /* CEO Social Media Links Styles */
+        .submenu a i {
+            margin-right: 8px;
+            width: 20px;
+            text-align: center;
+        }
+
+        .submenu a[href*="linkedin"] i {
+            color: #0077b5;
+        }
+
+        .submenu a[href*="github"] i {
+            color: #333;
+        }
+
+        .submenu a[href*="facebook"] i {
+            color: #1877f2;
+        }
+
+        .submenu a {
+            display: flex;
+            align-items: center;
+            padding: 8px 15px;
+            transition: all 0.3s ease;
+        }
+        
+        .submenu a:hover {
+            background: rgba(74, 144, 226, 0.1);
+            transform: translateX(5px);
+        }
+
+        .submenu a:hover i {
+            transform: scale(1.2);
+        }
+
+        /* Rest of your existing styles */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr;
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .modern-form {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(78, 31, 31, 0.1);
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group.full-width {
+            grid-column: 1 / -1;
+        }
+
+        .input-group {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        
+        .input-group i {
+            position: absolute;
+            left: 15px;
+            color: #4a90e2;
+            font-size: 18px;
+        }
+
+        .input-group input,
+        .input-group textarea {
+            width: 100%;
+            padding: 12px 15px 12px 45px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #ffffff04;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .input-group textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        .input-group input:focus,
+        .input-group textarea:focus {
+            outline: none;
+            border-color: #4a90e2;
+            box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+        }
+
+        .input-group input::placeholder,
+        .input-group textarea::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            accent-color: #4a90e2;
+        }
+
+        .checkbox-group label {
+            font-size: 14px;
+            color: rgba(17, 15, 15, 0);
+        }
+
+        .checkbox-group a {
+            color: #4a90e2;
+            text-decoration: none;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px;
+            background: #4a90e2;
+            color: #0a0909;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: #357abd;
+            transform: translateY(-2px);
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .info-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .info-card h3 {
+            color: #3a1c1c;
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .info-item i {
+            font-size: 24px;
+            color: #4a90e2;
+            background: rgba(74, 144, 226, 0.1);
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .info-item h4 {
+            color: #756c6c;
+            margin-bottom: 5px;
+            font-size: 18px;
+        }
+
+        .info-item p {
+            color: rgba(128, 106, 106, 0.8);
+            font-size: 16px;
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media h4 {
+            color: #423d3d;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-links a {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            color: #554e4e;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            background: #4a90e2;
+            transform: translateY(-3px);
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 1024px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info {
+                order: -1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .modern-form {
+                padding: 20px;
+            }
+            
+            .info-card {
+                padding: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .contact {
+                padding: 60px 0;
+            }
+            
+            .input-group input,
+            .input-group textarea {
+                font-size: 14px;
+            }
+            
+            .submit-btn {
+                padding: 12px;
+                font-size: 14px;
+            }
+            
+            .social-links a {
+                width: 35px;
+                height: 35px;
+                font-size: 16px;
+            }
+        }
+    </style>
+</body>
+</html> 
