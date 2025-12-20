@@ -365,7 +365,8 @@ header .container {
 }
 
 .logo img {
-    height: 50px;
+    height: 7
+    0px;
     width: auto;
     max-width: 200px;
     object-fit: contain;
